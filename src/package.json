@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@emotion/react": "latest",
+    "@emotion/styled": "latest",
+    "@mui/icons-material": "latest",
+    "@mui/material": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "description": "https://github.com/mui/material-ui/blob/v5.8.4/docs/data/material/components/lists/NestedList.js",
+  "devDependencies": {
+    "react-scripts": "latest"
+  },
+  "name": "NestedList demo — Material UI"
+}
