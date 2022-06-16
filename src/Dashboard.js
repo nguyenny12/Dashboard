@@ -13,7 +13,6 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import * as React from "react";
 import { mainListItems, secondaryListItems } from "./ListItem";
-import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 
 const drawerWidth = 240;
 
@@ -63,7 +62,7 @@ const Drawer = styled(MuiDrawer, {
 
 const mdTheme = createTheme();
 
-function DashboardContent() {
+export default function DashboardContent() {
   const [open, setOpen] = React.useState(true);
   const toggleDrawer = () => {
     setOpen(!open);
@@ -140,6 +139,6 @@ function DashboardContent() {
   );
 }
 
-export default function HeaderDashBoard() {
-  return <DashboardContent />;
-}
+// export default function HeaderDashBoard() {
+//   return <DashboardContent />;
+// }
